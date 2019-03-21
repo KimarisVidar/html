@@ -1,0 +1,205 @@
+.green{
+    color: #42b392;
+}
+.red{
+    color: #f00;
+}
+header{
+    width: 100%;
+    background: #fff;
+}
+.wrap{
+    max-width: 966px;
+    width: 966px;
+    margin: 0 auto;
+    height: auto;
+}
+#fan-group{
+    background: #f6f6f6;
+    height: 30px;
+}
+.fan-group-block{
+    float: right;
+    padding: 5px 0 0 0 ;
+}
+.fan-group-block i,
+.fan-group-block span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.fan-group-block .line{
+    width: 1px;
+    height: 10px;
+    background: #000;
+}
+.fan-group-block .fb-text,
+.fan-group-block .fa-facebook-square{
+    color: #4460a0;
+}
+.fan-group-block .tw-text,
+.fan-group-block .fa-twitter{
+    color: #00aaec;
+}
+
+#header-content{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#logo{
+    float: left;
+}
+nav{
+    float: right;
+    padding: 15px 0 0;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #00cc99;
+    font-weight: bold;
+    margin-right: 20px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+#carousel-block{
+    width: 100%;
+    max-width: 100%;
+    height: 346px;
+    max-height: 346px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../images/banner_04.png) no-repeat center;
+    position: relative;
+    background-size: cover;
+}
+#carousel-block .text-bg{
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    padding: 30px 0 0;
+}
+
+#carousel-block .text-bg h3{
+    text-align: left;
+    color: #fff;
+    font-size: 40px;
+}
+
+main{
+    margin: 50px 0 0;
+}
+#content-top{
+    margin-bottom: 60px;
+}
+.infor-block{
+    width: 32%;
+    height: 320px;
+    padding: 10px;
+    float: left;
+    margin: 0 2% 0 0;
+    box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.16);
+}
+.infor-block:last-child{
+    margin: 0;
+}
+.infor-block img{
+    margin: 0 auto;
+    display: block;
+}
+.infor-block h3{
+    text-align: center;
+    margin: 10px 0;
+}
+.infor-block p{
+    width: 90%;
+    margin: 0 auto;
+}
+#content-mid{
+    margin-bottom: 60px;
+}
+#content-mid caption{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#content-mid thead{
+    background: #f7f7f7;
+}
+#content-mid  tbody tr:last-child{
+    border-bottom: 1px solid #ccc;
+}
+#content-btm{
+    padding: 50px 0 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00654c+0,009671+100 */
+    background: #00654c; /* Old browsers */
+    background: -moz-linear-gradient(top, #00654c 0%, #009671 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #00654c 0%,#009671 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #00654c 0%,#009671 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00654c', endColorstr='#009671',GradientType=0 ); /* IE6-9 */
+}
+#content-btm h2,
+#content-btm h3{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.content-btm-text{
+    margin-top: 30px;
+    padding: 15px;
+}
+.content-btm-text div,
+.content-btm-text textarea{
+    float: left;
+    width: 48%;
+}
+.content-btm-text textarea{
+    width: 460px;
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 2%;
+}
+.content-btm-input span,
+.content-btm-input input{
+    display: block;
+}
+.content-btm-input label{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.content-btm-input span{
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.content-btm-input input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.content-btm-input .send{
+    float: right;
+    width: 70px;
+    height: 35px;
+    color: #fff;
+    padding: 5px 10px;
+    background: #00cc99;
+    border-radius: 4px;
+}
+footer{
+    padding: 20px 0;
+}
+footer .f-logo{
+    float: left;
+}
+footer .f-info{
+    float: right;
+}
